@@ -1,0 +1,22 @@
+{
+  "Conocidos": [
+    {
+      "id": 2,
+      "name": "Andres",
+      "age": 19,
+      "champion": "Viego"
+    },
+    {
+      "id": 3,
+      "name": "Richard",
+      "age": 19,
+      "champion": "Camille"
+    },
+    {
+      "id": 4,
+      "name": "Fabian",
+      "age": 19,
+      "champion": "Samira"
+    }
+  ]
+}
