@@ -7,11 +7,18 @@ const Message = ({contenti,color}) => {
         fontWeight: "bold",
         backgroundColor: color,
     };
+
+    
     return ( 
     <div style={style} >
-        <p>{contenti}</p>
+        {/* <p>{contenti}</p> */}
+        <p dangerouslySetInnerHTML={{__html: contenti}} />
     </div>
      );
 }
  
+
+  
+
+  
 export default Message;

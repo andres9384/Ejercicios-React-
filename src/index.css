@@ -20,8 +20,8 @@ input[type="number"]{
     margin-right: 2rem;
     margin-bottom: 1rem;
     outline: none;
-    display: inline-block;
-    width: 20%;
+    display: block;
+    width: 100%;
     font-size: 1rem;
     line-height: 1;
     background-color: transparent;
@@ -53,6 +53,10 @@ form{
 hr{
     margin:2rem auto;
 }
+img{
+    max-width: 100%;
+    height: auto ;
+}
 table {
     border-spacing: 0;
     border-collapse: collapse;
@@ -68,6 +72,13 @@ th,td{
     .resposive-designe{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: start;
+        gap: 2rem ;
+        
+    }
+    .resposive-designe-song{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         align-items: start;
         gap: 2rem ;
         
