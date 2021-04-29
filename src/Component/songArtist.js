@@ -22,7 +22,7 @@ const SongArtist = ({ artist }) => {
         </a>
       )}
 
-      <p>{artist.strBiographyEN}</p>
+      <p>{artist.strBiographyES}</p>
     </section>
   );
 };
